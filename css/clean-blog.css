@@ -422,3 +422,7 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+.embed-responsive-10by3 {
+   padding-top: 30%;
+}
