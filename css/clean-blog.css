@@ -39,12 +39,12 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #17A3C6;
 }
 
 blockquote {
   font-style: italic;
-  color: #868e96;
+  color: #BFC5CC;
 }
 
 .section-heading {
@@ -403,19 +403,19 @@ footer .copyright {
   padding: 15px 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: 'Helvetica', 'Helvetica', Helvetica, Helvetica, sans-serif;
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #BFC5CC;
+  border-color: #BFC5CC;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #17A3C6 !important;
+  border-color: #17A3C6 !important;
 }
 
 .btn-lg {
