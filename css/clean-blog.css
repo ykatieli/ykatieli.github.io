@@ -66,13 +66,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #17A3C6;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #17A3C6;
   text-shadow: none;
 }
 
@@ -94,14 +94,14 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  background-color: #fff;
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Helvetica', 'Helvetica', Helvetica, Helvetica, sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #343a40;
+  color: #212529;
 }
 
 #mainNav .navbar-toggler {
@@ -109,7 +109,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -129,14 +129,16 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    /*color: rgba(255, 255, 255, 0.8);*/
+    color: #17A3C6;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    /*color: rgba(255, 255, 255, 0.8);*/
+    color: #17A3C6;
   }
 }
 
@@ -164,13 +166,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #17A3C6;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #17A3C6;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -179,11 +181,20 @@ img::-moz-selection {
   }
 }
 
+header.masthead .index{
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #BFC5CC;
+  /*background-attachment: scroll;*/
+  position: relative;
+  background-size: cover;
+}
+
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #868e96;
-  background-attachment: scroll;
+  background-color: #BFC5CC;
+  /*background-attachment: scroll;*/
   position: relative;
   background-size: cover;
 }
@@ -194,8 +205,8 @@ header.masthead .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #212529;
-  opacity: 0.5;
+  background-color: #BFC5CC;
+  opacity: 0.2;
 }
 
 header.masthead .page-heading,
@@ -284,7 +295,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #17A3C6;
 }
 
 .post-preview > a > .post-title {
@@ -312,7 +323,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #17A3C6;
 }
 
 @media only screen and (min-width: 768px) {
@@ -375,7 +386,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #17A3C6;
 }
 
 form .form-group:first-child .floating-label-form-group {
