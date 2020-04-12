@@ -181,14 +181,14 @@ img::-moz-selection {
   }
 }
 
-header.masthead .index{
+/*header.masthead .index{
   margin-bottom: 50px;
   background: no-repeat center center;
   background-color: #BFC5CC;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
-}
+}*/
 
 header.masthead {
   margin-bottom: 50px;
