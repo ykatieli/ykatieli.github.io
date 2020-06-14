@@ -106,14 +106,14 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: #212529;
+  background-color: #fff;
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Helvetica', 'Helvetica', Helvetica, Helvetica, sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #52B2CF;
+  color: #212529;
 }
 
 #mainNav .navbar-toggler {
@@ -121,7 +121,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #52B2CF;
+  color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -129,7 +129,7 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #fff;
+  color: #52B2CF;
 }
 
 @media only screen and (min-width: 992px) {
@@ -143,7 +143,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     /*color: rgba(255, 255, 255, 0.8);*/
-    color: #212529;
+    color: #7EC4CF;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
@@ -151,7 +151,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     /*color: rgba(255, 255, 255, 0.8);*/
-    color: #212529;
+    color: #7EC4CF;
   }
 }
 
@@ -179,13 +179,13 @@ img::-moz-selection {
     color: #fff;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #212529;
+    color: #7EC4CF;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #fff;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #212529;
+    color: #7EC4CF;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
