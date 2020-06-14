@@ -51,7 +51,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 blockquote {
@@ -78,13 +78,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #17A3C6;
+  background: #52B2CF;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #17A3C6;
+  background: #52B2CF;
   text-shadow: none;
 }
 
@@ -113,7 +113,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 #mainNav .navbar-toggler {
@@ -121,7 +121,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -236,19 +236,19 @@ img::-moz-selection {
   }
   #mainNav2 .navbar-brand {
     padding: 10px 20px;
-    color: #7EC4CF;
+    color: #212529;
   }
   #mainNav2 .navbar-brand:focus, #mainNav2 .navbar-brand:hover {
     /*color: rgba(255, 255, 255, 0.8);*/
-    color: #212529;
+    color: #7EC4CF;
   }
   #mainNav2 .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #7EC4CF;
+    color: #212529;
   }
   #mainNav2 .navbar-nav > li.nav-item > a:focus, #mainNav2 .navbar-nav > li.nav-item > a:hover {
     /*color: rgba(255, 255, 255, 0.8);*/
-    color: #212529;
+    color: #7EC4CF;
   }
 }
 
@@ -273,16 +273,16 @@ img::-moz-selection {
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav2.is-fixed .navbar-brand {
-    color: #7EC4CF;
+    color: #212529;
   }
   #mainNav2.is-fixed .navbar-brand:focus, #mainNav2.is-fixed .navbar-brand:hover {
-    color: #212529;
-  }
-  #mainNav2.is-fixed .navbar-nav > li.nav-item > a {
     color: #7EC4CF;
   }
-  #mainNav2.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav2.is-fixed .navbar-nav > li.nav-item > a:hover {
+  #mainNav2.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
+  }
+  #mainNav2.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav2.is-fixed .navbar-nav > li.nav-item > a:hover {
+    color: #7EC4CF;
   }
   #mainNav2.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -414,7 +414,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 .post-preview > a > .post-title {
@@ -442,7 +442,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 @media only screen and (min-width: 768px) {
@@ -505,7 +505,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #17A3C6;
+  color: #52B2CF;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -544,8 +544,8 @@ footer .copyright {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #17A3C6 !important;
-  border-color: #17A3C6 !important;
+  background-color: #52B2CF !important;
+  border-color: #52B2CF !important;
 }
 
 .btn-lg {
