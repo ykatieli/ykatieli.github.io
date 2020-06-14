@@ -19,7 +19,6 @@ p a {
   text-decoration: underline;
 }
 
-
 h1,
 h2,
 h3,
@@ -33,7 +32,7 @@ h5 {
 }
 
 h6 {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 800;
   /* font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Montserrat', sans-serif;
@@ -41,8 +40,6 @@ h6 {
   font-family: 'Muli', sans-serif;
   color: #212529;
 }
-
-
 
 a {
   color: #212529;
@@ -196,14 +193,10 @@ img::-moz-selection {
 
 
 
-
-
-
-
 #mainNav2 {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: #7EC4CF;
+  background-color: #fff;
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Helvetica', 'Helvetica', Helvetica, Helvetica, sans-serif;
 }
@@ -226,7 +219,7 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #212529;
+  color: #52B2CF;
 }
 
 @media only screen and (min-width: 992px) {
@@ -290,11 +283,6 @@ img::-moz-selection {
     transform: translate3d(0, 100%, 0);
   }
 }
-
-
-
-
-
 
 
 
